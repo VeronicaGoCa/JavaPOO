@@ -19,6 +19,7 @@ public class CrearVehiculoV2 {
 		vehiculo.acelerar();
 		vehiculo.frenar();
 		vehiculo.tocarMusica();
+		System.out.println(vehiculo.precioVehiculo("Toyota"));
 
 	}
 

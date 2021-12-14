@@ -35,4 +35,18 @@ public class VehiculoV1 {
 		System.out.println("Modelo: " + modelo);
 		System.out.println("Numero de asientos: " + numeroAsientos);
 	}
+	
+	String precioVehiculo(String marca) {
+		switch (marca) {
+		case "Toyota":
+			return (25000 + "$us");
+			
+		case "Nissan":
+			return (35000 + "$us");
+			
+		}
+		return ("No se tiene el precio del Vehiculo: " + marca);
+	}
+	
+	
 }

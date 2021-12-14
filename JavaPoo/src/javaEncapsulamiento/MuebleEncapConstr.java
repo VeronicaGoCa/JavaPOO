@@ -1,0 +1,34 @@
+package javaEncapsulamiento;
+
+public class MuebleEncapConstr {
+	private String material;
+	private String color;
+	private String descripcion;
+
+	//Constructor
+	
+	public MuebleEncapConstr(String material, String color, String descripcion) {
+		this.material = material;
+		this.color = color;
+		this.descripcion = descripcion;
+	}
+	
+	public String getMaterial() {
+		return material;
+	}
+	public void setMaterial(String material) {
+		this.material = material;
+	}
+	public String getColor() {
+		return color;
+	}
+	public void setColor(String color) {
+		this.color = color;
+	}
+	public String getDescripcion() {
+		return descripcion;
+	}
+	public void setDescripcion(String descripcion) {
+		this.descripcion = descripcion;
+	}
+}
