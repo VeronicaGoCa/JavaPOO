@@ -14,9 +14,5 @@ public class Vehiculo {
 	@Override
 	public String toString() {
 		return "Vehiculo [marca=" + marca + ", color=" + color + ", numeroAsientos=" + numeroAsientos + "]";
-	}
-	
-	
-	
-	
+	}	
 }
